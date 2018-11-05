@@ -1,2 +1,6 @@
-# WEB_LAB4_AUCTION_EVENT
-Лабораторная работа №4 по дисциплине "WEB-Технологии"
+# WEB COURSE AUCTION #2
+laboratory works on web programming. 3 course, 5 semester
+#lab_work #4
+auction
+
+##jquery UI socket.io webpack mocha winston sentry jslint 
