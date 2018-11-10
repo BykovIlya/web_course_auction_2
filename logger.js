@@ -3,8 +3,8 @@ const Sentry = require('winston-raven-sentry');
 
 let logger = winston.createLogger({
     transports: [
-        new winston.transports.Console({ //Вывод в консоль
-            level: 'debug', // Уровень debug или выше
+        new winston.transports.Console({
+            level: 'debug',
             format: winston.format.combine(
                 winston.format.colorize(),
                 winston.format.timestamp({

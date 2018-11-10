@@ -15,7 +15,7 @@ $(document).ready(()=> {
                 nickname: $('#nickname').val()
             },
         success: function (data, status) {
-            $(location).attr('href', `http://localhost:4444/user?` +
+            $(location).attr('href', `http://localhost:4445/user?` +
                 `name=${data.nickname}&money=${data.money}`);
         },
         error: function (data, status) {

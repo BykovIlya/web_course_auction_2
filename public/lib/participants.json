@@ -102,6 +102,18 @@
       "money": 200000,
       "auction": "",
       "id": "usrId9xMZNeo_H"
+    },
+    {
+      "name": "Серега",
+      "card": "798798",
+      "money": "100000000",
+      "auction": [
+        {
+          "picture": "Солдат",
+          "maxPrice": "10000"
+        }
+      ],
+      "id": "usrIdXkiV8CueJ"
     }
   ]
 }

@@ -56,7 +56,7 @@ $(document).ready(function(){
 
     var isRight = true;
     function chat() {
-        socket = io.connect('http://localhost:4444');
+        socket = io.connect('http://localhost:4445');
         socket.on('connect', function () {
             socket.json.emit('hello', {'name': $('#username').text()});
             socket.on('msg', function (msg) {

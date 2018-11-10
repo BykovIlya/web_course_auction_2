@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 
     var isRight = true;
-    var socket = io.connect('http://localhost:4444');
+    var socket = io.connect('http://localhost:4445');
     socket.on('connect', function () {
         socket.on('msg', function (msg) {
             if (isRight) {

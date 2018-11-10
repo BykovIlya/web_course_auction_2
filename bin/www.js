@@ -6,20 +6,20 @@ var debug = require('debug')('web_course_auction_2:server');
 var logger = require('../logger');
 
 
-var port = 4444;
+var port = 4445;
 server.listen(port, ()=>{
     logger.verbose(`HTTP server started at http://localhost:${port}`);
 });
 server.on('error', onError);
 server.on('listening', onListening);
 
-if(process.env.NODE_ENV !== 'test') {
+//if(process.env.NODE_ENV !== 'test') {
     var pictureInfo = require('../public/lib/pictures');
     var participantsInfo = require('../public/lib/participants');
-} else {
-    var pictureInfo = require('../public/lib/template_pictures');
-    var participantsInfo = require('../public/lib/template_participants');
-}
+//} else {
+ //   var pictureInfo = require('../public/lib/template_pictures');
+  //  var participantsInfo = require('../public/lib/template_participants');
+//}
 
 var paintings = [];
 var participants = [];
